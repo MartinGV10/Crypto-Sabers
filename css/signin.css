@@ -1,0 +1,146 @@
+body {
+    background-color:gray;
+    overflow-x:hidden;
+}
+
+nav, a {
+	color:white;
+	font-size:20px;
+}
+
+#shop {
+    width:75px;
+    height:75px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 29%;
+  line-height: 45px; /* Vertically center the text there */
+  background-color:lightgray !important;
+}
+
+.links {
+	position:relative;
+	left:300px;
+}
+
+.footerText {
+	color:#494B51;
+	font-size:20px;
+}
+
+form {
+    text-align:center;
+    position:relative;
+    top:90px;
+}
+
+.form {
+    background-color:lightgray;
+    width:550px;
+    height:400px;
+    margin:auto;
+    position:relative;
+    top:50px;
+	border-radius:10px 10px 10px 10px;
+ 
+}
+
+.signup {
+    position:relative;
+    top:60px;
+    left:43%;
+	width:270px;
+	height:49px;
+	line-height:49px;
+	background-color:lightgray;
+	border-radius:10px 10px 10px 10px;
+}
+
+.here {
+    font-size:17px;
+}
+
+label {
+	font-size:20px;
+}
+
+.copyright {
+	position:relative;
+	left:80%;
+	top:-80%;
+}
+
+.name {
+	color:white;
+	font-size:20px;
+}
+
+.logo {
+	position:relative;
+	top:22px;
+	left:10%;
+}
+
+.name {
+	position:relative;
+	left:80%;
+	top:-17px;
+}
+
+.copyright {
+	position:relative;
+	left:80%;
+	top:-90%;
+}
+
+.name {
+	color:white;
+}
+
+.logo {
+	position:relative;
+	left:10%;
+	top:22px;
+}
+
+.name {
+	position:relative;
+	left:80%;
+	top:-17px;
+}
+
+.footerLogo {
+	position:relative;
+	left:59%;
+	top:-100px;
+}
+
+.homeLink, .buildLink, .aboutLink, .signInLink {
+    color:gray !important;
+}
+
+.copyFooter {
+    color:white;
+    font-size:15px !important;
+}
+
+.bruhMoment {
+    background-color:#353A40 !important;
+}
+
+h5 {
+	color:gray;
+}

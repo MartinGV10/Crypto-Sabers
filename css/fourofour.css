@@ -1,0 +1,128 @@
+body {
+    background-color:gray;
+    overflow-x:hidden;
+}
+
+.error {
+    margin:auto;
+    text-align:center;
+    position:relative;
+    top:150px;    
+}
+
+h1 {
+    color:lightblue;
+    font-size:50px;
+}
+
+p {
+    color:lightblue;
+    font-size:20px;
+}
+
+nav, a {
+	color:white;
+	font-size:20px;
+}
+
+#shop {
+    width:75px;
+    height:75px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 29%;
+  line-height: 45px; /* Vertically center the text there */
+  background-color:lightgray !important;
+}
+
+.links {
+	position:relative;
+	left:300px;
+}
+
+.footerText {
+	color:#494B51;
+	font-size:20px;
+}
+
+.name {
+	color:white;
+	font-size:20px;
+}
+
+.copyright {
+	position:relative;
+	left:80%;
+	top:-80%;
+	color:#494B51;
+}
+
+.logo {
+	position:relative;
+	top:22px;
+	left:10%;
+}
+
+.name {
+	position:relative;
+	left:80%;
+	top:-17px;
+}
+
+.copyright {
+	position:relative;
+	left:80%;
+	top:-90%;
+}
+
+.name {
+	color:white;
+}
+
+.logo {
+	position:relative;
+	left:10%;
+	top:22px;
+}
+
+.name {
+	position:relative;
+	left:80%;
+	top:-17px;
+}
+
+.footerLogo {
+	position:relative;
+	left:59%;
+	top:-100px;
+}
+
+.homeLink, .buildLink, .aboutLink, .signInLink {
+    color:gray !important;
+}
+
+.copyFooter {
+    color:white;
+    font-size:15px !important;
+}
+
+.bruhMoment {
+    background-color:#353A40 !important;
+}
+
+h5 {
+	color:gray;
+}

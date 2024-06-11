@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+nav, a {
+	color:white;
+	font-size:20px;
+}
+
+body {
+	background-color:gray;
+	background-repeat: no-repeat;
+	overflow-x: hidden;
+}
+
+
+
+.links {
+	position:relative;
+	left:300px;
+}
+
+.footerText {
+	color:#494B51;
+	font-size:20px;
+}
+
+#shop {
+    width:75px;
+    height:75px;   
+}
+
+.needs-validation {
+	width:500px;
+	height:500px;
+	margin:auto;
+	position:relative;
+	top:50px;
+}
+
+.signup-borders {
+	width:600px;
+	height:400px;
+	margin:auto;
+	background-color:lightgray;
+	position: relative;
+	top:50px;
+	border-radius:10px 10px 10px 10px;
+
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 29%;
+  line-height: 45px; /* Vertically center the text there */
+  background-color:lightgray !important;
+}
+
+.joke, .linkJoke {
+	font-size:15px;
+	color:black;
+}
+
+.copyright {
+	position:relative;
+	left:80%;
+	top:-80%;
+}
+
+.name {
+	color:white;
+	font-size:20px;
+}
+
+.joke {
+	text-decoration:underline black;
+}
+
+.logo {
+	position:relative;
+	top:22px;
+	left:10%;
+}
+
+.name {
+	position:relative;
+	left:80%;
+	top:-17px;
+}
+
+.copyright {
+	position:relative;
+	left:80%;
+	top:-90%;
+}
+
+.name {
+	color:white;
+}
+
+.logo {
+	position:relative;
+	left:10%;
+	top:22px;
+}
+
+.name {
+	position:relative;
+	left:80%;
+	top:-17px;
+}
+
+.footerLogo {
+	position:relative;
+	left:59%;
+	top:-100px;
+}
+
+.homeLink, .buildLink, .aboutLink, .signInLink {
+    color:gray !important;
+}
+
+.copyFooter {
+    color:white;
+    font-size:15px !important;
+}
+
+.bruhMoment {
+    background-color:#353A40 !important;
+}
+
+h5 {
+	color:gray;
+}
+
+label {
+	text-decoration: underline;
+}

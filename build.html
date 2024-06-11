@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crypto Sabers | Build Your Own Custom Saber!</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	 <!-- Lytebox-->
+	<link href="css/lytebox.css" rel="stylesheet" type="text/css">
+	  <!-- MDB -->
+  <!--Your CSS-->
+	<link href="css/build.css" rel="stylesheet" type="text/css">
+	  	  <!-- generics -->
+<link rel="icon" href="Actual Images/Favicon/f13.png" sizes="32x32">
+<link rel="icon" href="Actual Images/Favicon/f12.png" sizes="57x57">
+<link rel="icon" href="Actual Images/Favicon/f11.png" sizes="76x76">
+<link rel="icon" href="Actual Images/Favicon/f10.png" sizes="96x96">
+<link rel="icon" href="Actual Images/Favicon/f8.png" sizes="128x128">
+<link rel="icon" href="Actual Images/Favicon/f14.png" sizes="228x228">
+<!-- Android -->
+<link rel="shortcut icon" href="Actual Images/Favicon/f1.png" sizes="196x196">
+<!-- iOS -->
+<link rel="apple-touch-icon" href="Actual Images/Favicon/f9.png" sizes="120x120">
+<link rel="apple-touch-icon"  href="Actual Images/Favicon/f5.png" sizes="152x152">
+<link rel="apple-touch-icon" href="Actual Images/Favicon/f4.png" sizes="180x180">
+
+<!-- windows -->
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="icons/f3.png">
+  </head>
+  <body>
+   
+<!-- Image and text -->
+<nav class="navbar navbar-light bg-dark bruhMoment">
+  <a class="navbar-brand" href="index.html">
+<img src="Actual Images/Logo.png" width="50" height="50" class="d-inline-block align-top logo" alt="Logo">
+    <p class="name">Crypto Sabers</p>
+	  <!-- Image -->
+    <a href="index.html">Home</a>
+	<a href="build.html">Build</a>
+	<a href="about.html">About</a>
+	<a href="signin.html">Sign In</a>
+	<a href="signup.html">Sign Up</a>
+  </a>
+    <a href="signin.html">
+    <img src="Actual Images/Shopping Cart.png" id="shop" alt="Shopping Cart">My Cart
+    </a>
+</nav>
+    
+<div class="desc"> 
+<h1 align="center">Build</h1>
+	<p align="center">Welcome to our main attraction! <br> Here you can choose any of countless parts to create your own Lightsaber.<br> There are 5 parts that must be chosen with 3 colors to choose from with 1 of 5 parts in each of the remaining sections. <br>Your lightsaber will be displayed to the right of the page. You can customize the lightsaber via draging and dropping the images into their correct spot.</p>
+</div>
+
+<div class="label1" ondrop="drop(event)" ondragover="allowDrop(event)">
+	<h1 class="colors">Colors</h1>
+	<img src="Actual Images/Colors/Blue.jpg" width="359" height="300px" alt="Blue" id="blue">
+	<img src="Actual Images/Colors/Green.jpg" width="359" height="300px" alt="Green" id="green">
+	<img src="Actual Images/Colors/Red.jpg" width="359" height="300px" alt="Red" id="red">
+	  </div>
+	  <!-- All Images To Be Updated in Time With PS -->
+<div class="label2" ondrop="drop(event)" ondragover="allowDrop(event)">
+	<h1 class="emitter">Emitter</h1>
+	<!--<div class="Emitter1">-->
+	<img src="Actual Images/Emitters/Emitter1.jpg" alt="Emitter #1" draggable="true" ondragstart="drag(event)" id="emitterDrag1">
+	<!--</div>-->
+	<img src="Actual Images/Emitters/Emitter2.jpg" alt="Emitter #2" draggable="true" ondragstart="drag(event)" id="emitterDrag2">
+	<img src="Actual Images/Emitters/Emitter3.jpg" alt="Emitter #3" draggable="true" ondragstart="drag(event)" id="emitterDrag3">
+	<img src="Actual Images/Emitters/Emitter4.jpg" alt="Emitter #4" draggable="true" ondragstart="drag(event)" id="emitterDrag4">
+	<img src="Actual Images/Emitters/Emitter5.jpg" alt="Emitter #5" draggable="true" ondragstart="drag(event)" id="emitterDrag5">
+	  </div>
+	  
+<div class="label3" ondrop="drop(event)" ondragover="allowDrop(event)">
+	<h1 class="switch">Switch</h1>
+	<img src="Actual Images/Switches/Switch1.jpg" alt="Switch #1" draggable="true" ondragstart="drag(event)" id="switchDrag1">
+	<img src="Actual Images/Switches/Switch2.jpg" alt="Switch #2" draggable="true" ondragstart="drag(event)" id="switchDrag2">
+	<img src="Actual Images/Switches/Switch3.jpg" alt="Switch #3" draggable="true" ondragstart="drag(event)" id="switchDrag3">
+	<img src="Actual Images/Switches/Switch4.jpg" alt="Switch #4" draggable="true" ondragstart="drag(event)" id="switchDrag4">
+	<img src="Actual Images/Switches/Switch5.jpg" alt="Switch #5" draggable="true" ondragstart="drag(event)" id="switchDrag5">
+	  </div>
+	  
+<div class="label4" ondrop="drop(event)" ondragover="allowDrop(event)">
+	<h1 class="sleeve">Sleeve</h1>
+	<img src="Actual Images/Sleeves/Sleeve1.jpg" alt="Sleeve #1" draggable="true" ondragstart="drag(event)" id="sleeveDrag1">
+	<img src="Actual Images/Sleeves/Sleeve2.jpg" alt="Sleeve #2" draggable="true" ondragstart="drag(event)" id="sleeveDrag2">
+	<img src="Actual Images/Sleeves/Sleeve3.jpg" alt="Sleeve #3" draggable="true" ondragstart="drag(event)" id="sleeveDrag3">
+	<img src="Actual Images/Sleeves/Sleeve4.jpg" alt="Sleeve #4" draggable="true" ondragstart="drag(event)" id="sleeveDrag4">
+	<img src="Actual Images/Sleeves/Sleeve5.jpg" alt="Sleeve #5" draggable="true" ondragstart="drag(event)" id="sleeveDrag5">
+	  </div>
+	  <!-- Images Are to be flipped in PS -->
+<div class="label5" ondrop="drop(event)" ondragover="allowDrop(event)">
+	<h1 class="pommel">Pommel</h1>
+	<img src="Actual Images/Pommels/Pommel1.jpg" alt="Pommel #1" draggable="true" ondragstart="drag(event)" id="pommelDrag1">
+	<img src="Actual Images/Pommels/Pommel2.jpg" alt="Pommel #2" draggable="true" ondragstart="drag(event)" id="pommelDrag2">
+	<img src="Actual Images/Pommels/Pommel3.jpg" alt="Pommel #3" draggable="true" ondragstart="drag(event)" id="pommelDrag3">
+	<img src="Actual Images/Pommels/Pommel4.jpg" alt="Pommel #4" draggable="true" ondragstart="drag(event)" id="pommelDrag4">
+	<img src="Actual Images/Pommels/Pommel5.jpg" alt="Pommel #5" draggable="true" ondragstart="drag(event)" id="pommelDrag5">
+
+	  </div>
+
+
+<div class="dragBox" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div class="dragBox" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div class="dragBox" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div class="dragBox" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	
+    <div id="finalForm">
+    <form class="subSaber" action="fourofour.html">
+    <input type="submit" value="Add Custom Lightsaber to My Cart">
+    </form>
+    </div>
+    
+
+	   	  <!-- Footer -->
+<footer class="page-footer font-small footer">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Explore Our Page</h5>
+
+        <ul class="list-unstyled linkList">
+          <li>
+            <a href="index.html" class="homeLink">Home</a>
+          </li>
+          <li>
+            <a href="build.html" class="buildLink">Build</a>
+          </li>
+          <li>
+            <a href="about.html" class="aboutLink">About</a>
+          </li>
+          <li>
+            <a href="signin.html" class="signInLink">Sign In</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+    
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4"></h5>
+
+		<img src="Actual Images/Logo.png" width="200" height="200" class="d-inline-block align-top otherLogo" alt="Logo">
+
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 copyFooter">© 2022 Copyright:
+    <a href="index.html" class="copyFooter"> CryptoSabers.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+	  
+	  
+	  
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/lytebox.js"></script>
+  </body>
+</html>
+<!--this is for the lytebox link don't mess with it for now-->
+<!--class="lytebox" data-title="whatever" data-lyte-options="group:album1"-->
+<script src="js/buildnew.min.js"></script>

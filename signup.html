@@ -1,0 +1,217 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Crypto Sabers | Sign Up</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	 <!-- Lytebox-->
+	<link href="css/lytebox.css" rel="stylesheet" type="text/css">
+	   <!--Your CSS-->
+	<link href="css/signup.css" rel="stylesheet" type="text/css">
+	  	  <!-- generics -->
+<link rel="icon" href="Actual Images/Favicon/f13.png" sizes="32x32">
+<link rel="icon" href="Actual Images/Favicon/f12.png" sizes="57x57">
+<link rel="icon" href="Actual Images/Favicon/f11.png" sizes="76x76">
+<link rel="icon" href="Actual Images/Favicon/f10.png" sizes="96x96">
+<link rel="icon" href="Actual Images/Favicon/f8.png" sizes="128x128">
+<link rel="icon" href="Actual Images/Favicon/f14.png" sizes="228x228">
+<!-- Android -->
+<link rel="shortcut icon" href="Actual Images/Favicon/f1.png" sizes="196x196">
+<!-- iOS -->
+<link rel="apple-touch-icon" href="Actual Images/Favicon/f9.png" sizes="120x120">
+<link rel="apple-touch-icon"  href="Actual Images/Favicon/f5.png" sizes="152x152">
+<link rel="apple-touch-icon" href="Actual Images/Favicon/f4.png" sizes="180x180">
+<!-- windows -->
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="icons/f3.png">
+</head>
+
+<body>
+
+<!-- Image and text -->
+<nav class="navbar navbar-light bg-dark" m-auto>
+  <a class="navbar-brand" href="index.html">
+<img src="Actual Images/Logo.png" width="50" height="50" class="d-inline-block align-top logo" alt="Logo">
+    <p class="name">Crypto Sabers</p>
+	  <!-- Image -->
+    <a href="index.html">Home</a>
+	<a href="build.html">Build</a>
+	<a href="about.html">About</a>
+	<a href="signin.html">Sign In</a>
+	<a href="signup.html">Sign Up</a>
+  </a>
+    <a href="signin.html">
+    <img src="Actual Images/Shopping Cart.png" id="shop" alt="Shopping Cart">My Cart
+    </a>
+</nav>
+
+<div class="signup-borders">
+<form class="needs-validation" novalidate action="fourofour.html">
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom01">First name</label>
+      <input type="text" class="form-control" id="validationCustom01" placeholder="First name" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom02">Last name</label>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustomUsername">Username</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroupPrepend">@</span>
+        </div>
+        <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Please choose a username.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom03">City</label>
+      <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
+      <div class="invalid-feedback">
+        Please provide a valid city.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom04">State</label>
+      <input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
+      <div class="invalid-feedback">
+        Please provide a valid state.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom05">Zip</label>
+      <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
+      <div class="invalid-feedback">
+        Please provide a valid zip.
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+     <!-- <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+    <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label> -->
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-primary" type="submit">Create Account</button> 
+<br><br>
+<!--<p class="joke"> You can read the Terms and Conditions Here</p>-->
+</form>
+
+	
+
+</div>
+
+
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+
+	  	  <!-- Footer -->
+<footer class="page-footer font-small footer">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Explore Our Page</h5>
+
+        <ul class="list-unstyled linkList">
+          <li>
+            <a href="index.html" class="homeLink">Home</a>
+          </li>
+          <li>
+            <a href="build.html" class="buildLink">Build</a>
+          </li>
+          <li>
+            <a href="about.html" class="aboutLink">About</a>
+          </li>
+          <li>
+            <a href="signin.html" class="signInLink">Sign In</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+    
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4"></h5>
+
+		<img src="Actual Images/Logo.png" width="200" height="200" class="d-inline-block align-top " alt="Logo">
+
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 copyFooter">© 2022 Copyright:
+    <a href="index.html" class="copyFooter"> CryptoSabers.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+</body>
+</html>

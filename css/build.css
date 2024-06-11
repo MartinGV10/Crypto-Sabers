@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:gray;
+	overflow-x:hidden;
+}
+
+nav, a {
+	color:white;
+	font-size:20px !important;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 11%;
+  line-height: 45px; /* Vertically center the text there */
+  background-color:lightgray !important;
+}
+
+.links {
+	position:relative;
+	left:300px;
+}
+
+h1 {
+	text-decoration:underline;
+	font-size:50px;
+}
+
+p {
+	font-size:18px;
+	color:white;
+}
+
+.dragBox {
+	border:5px solid black;
+	width:241px;
+	height:182px;
+	position:relative;
+	left:1500px;
+	top:-900px;
+	line-height: 182px;
+}
+
+
+.label1, .label2, .label3, .label4, .label5 {
+	position:relative;
+	left:200px;
+}
+
+img {
+	width:241px;
+	height:182px;
+}
+
+#emitterDrag1:hover {
+	background-color:#145101
+}
+
+#emitterDrag1, #emitterDrag2, #emitterDrag3, #emitterDrag4, #emitterDrag5 {
+      border: 5px solid black;
+    }
+
+#switchDrag1, #switchDrag2, #switchDrag3, #switchDrag4, #switchDrag5 {
+      border: 5px solid black;
+    }
+
+#sleeveDrag1, #sleeveDrag2, #sleeveDrag3, #sleeveDrag4, #sleeveDrag5 {
+      border: 5px solid black;
+    }
+
+#pommelDrag1, #pommelDrag2, #pommelDrag3, #pommelDrag4, #pommelDrag5 {
+      border: 5px solid black;
+    }
+
+#blue, #red, #green {
+      border: 5px solid white;
+    }
+
+#blue:active, #green:active, #red:active {
+      border: 5px solid blue;
+	  opacity:60%;
+    }
+
+#emitterDrag1:hover, #emitterDrag2:hover, #emitterDrag3:hover, #emitterDrag4:hover, #emitterDrag5:hover, #switchDrag1:hover, #switchDrag2:hover, #switchDrag3:hover, #switchDrag4:hover, #switchDrag5:hover, #sleeveDrag1:hover, #sleeveDrag2:hover, #sleeveDrag3:hover, #sleeveDrag4:hover, #sleeveDrag5:hover, #pommelDrag1:hover, #pommelDrag2:hover, #pommelDrag3:hover, #pommelDrag4:hover, #pommelDrag5:hover {
+      opacity:55%;
+    }
+
+#pommelDrag1, #pommelDrag2, #pommelDrag3, #pommelDrag4, #pommelDrag5 {
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+}
+
+.Emitter1 {
+	border:5px solid black;
+	width:241px;
+	height:182px;
+}
+
+#shop {
+    width:75px;
+    height:75px;   
+}
+
+
+
+.name {
+	color:white;
+}
+
+.subSaber {
+	position:relative;
+	top:-500px;
+	left:50%;
+}
+
+input[type=submit] {
+	width:600px;
+	height:50px;
+	position:relative;
+	top:-175%;
+	left:-324px;
+}
+
+.logo {
+	position:relative;
+	top:22px;
+	left:10%;
+	width:50px;
+	height:50px;
+}
+
+.name {
+	position:relative;
+	left:80%;
+	top:-17px;
+	font-size: 20px;
+}
+
+.copyright {
+	position:relative;
+	left:80%;
+	top:-90%;
+}
+
+.logo {
+	position:relative;
+	left:10%;
+	top:22px;
+}
+
+.footerLogo {
+	position:relative;
+	left:59%;
+	top:-100px;
+}
+
+.homeLink, .buildLink, .aboutLink, .signInLink {
+    color:gray !important;
+}
+
+.copyFooter {
+    color:white;
+    font-size:15px !important;
+	background-color:gray !important;
+}
+
+.bruhMoment {
+    background-color:#353A40 !important;
+}
+
+h5 {
+	color:gray !important;
+}
+
+.otherLogo {
+	width:80%;
+	height:75%;
+}

@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+nav, a {
+	color:white;
+	font-size:20px;
+
+}
+
+nav {
+	background-color:#353A40 !important;
+}
+
+.navbar {
+	color:#353A40 !important;
+}
+
+.saber1 , .saber2 , .saber3 {
+	margin:auto;
+	height:500px;
+}
+
+body {
+	background-color:gray;
+	background-repeat: no-repeat;
+	overflow-x: hidden;
+}
+
+#carouselExampleIndicators {
+	width:1000px;
+	height:550px;
+	margin:auto;
+	border:5px solid black;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 22%;
+  line-height: 45px; /* Vertically center the text there */
+  background-color: lightgray !important;
+  color:gray !important;
+}
+
+.links {
+	position:relative;
+	left:300px;
+}
+
+.footerText {
+	color:#494B51;
+	font-size:20px;
+}
+
+#shop {
+    width:75px;
+    height:75px;   
+}
+
+.copyright {
+	position:relative;
+	left:80%;
+	top:-90%;
+}
+
+.name {
+	color:white;
+}
+
+.logo {
+	position:relative;
+	left:10%;
+	top:22px;
+}
+
+.name {
+	position:relative;
+	left:80%;
+	top:-17px;
+}
+
+.footerLogo {
+	position:relative;
+	left:59%;
+	top:-100px;
+}
+
+.homeLink, .buildLink, .aboutLink, .signInLink {
+    color:gray !important;
+}
+
+.copyFooter {
+    color:white;
+    font-size:15px !important;
+}
+
+.bruhMoment {
+    background-color:#353A40 !important;
+}
+
